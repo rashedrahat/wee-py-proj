@@ -20,9 +20,9 @@ while not program_status:
 		verb = input("Enter a verb e.g. Play, Dance, etc. ")
 		verb = verb.lower()
 
-		if len(noun) and len(adj) and len(verb) > 0:
-			if len(noun) and len(adj) and len(verb) >= 2:
-				if len(noun) and len(adj) >= 3:
+		if len(noun) > 0 and len(adj) > 0 and len(verb) > 0:
+			if len(noun) >= 2 and len(adj) >= 2 and len(verb) >= 2:
+				if len(noun) >= 3 and len(adj) >= 3:
 					# pre-made stories
 					story = "Two freinds are going home after finishing the class. One of them says let's learn some grammer. There are too many things to learn in English Grammer. In Grammer parts of speech is eight types. They are noun, pronoun, adjective, verb, adverb, prepositon, conjunction and interjection. Now think about three words whatever comes to your mind. Second freind thinking randomly and says that ok i thought and here are the words " + noun + ", " + adj + ", " + verb + " respectively. Hmm, ok, now First of all, noun is: '" + noun + "'. Secondly, pronoun is: 'They/You'. Thirdly, adjective is: '" + adj + "'. Then, verb is: '"+ verb + "'. Next, adverb is: 'too' that i used earlier in our conversation. Then.. Hey, wait. Let me explain myself the rest. So, then preposition is: 'in/to'. Then, conjunction is: and type sentence we used in our chat. Finally, interjection is: 'Hey' that i said to stop you."
 					story1 = noun + " is a " + adj + " reader. He loves to " + verb + ". He " + verb + "s not only on online but also on offline."
