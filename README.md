@@ -9,4 +9,4 @@ The five mini Python projects are:
 4. Hangman
 - It's a game of guessing the correct word.
 5. Pick & Earn
-- Textbased adventure game. Person will earn money by picking things.
+- Text based adventure game. Person will earn money by picking things.
