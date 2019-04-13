@@ -35,7 +35,7 @@ while True:
 				guess_word = guess_word + l
 		guess_word = guess_word.capitalize()
 		if guess_word == list[i][1]:
-			print("Hurah! You guessed the correct word '", guess_word, "'")
+			print("Hurrah! You guessed the correct word '", guess_word, "'")
 			break
 		else:
 			print("Sorry! Better luck next time.", "The word is:", list[i][1])
